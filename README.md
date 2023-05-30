@@ -1,5 +1,6 @@
-[ ] fastify
-[ ] typescript
-[ ] eslint + prettier
+[X] fastify
+[X] typescript
+[X] eslint + prettier
 [ ] jest
 [ ] husky
+[ ] ncu
