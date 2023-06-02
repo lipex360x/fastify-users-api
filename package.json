@@ -13,7 +13,9 @@
     "ncu": "ncu -i --dep=prod,dev --format group -p yarn"
   },
   "dependencies": {
-    "fastify": "4.17.0"
+    "dotenv": "16.1.3",
+    "fastify": "4.17.0",
+    "zod": "3.21.4"
   },
   "devDependencies": {
     "@types/jest": "29.5.1",
