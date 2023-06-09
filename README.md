@@ -14,6 +14,7 @@
 MODULE=users && \
 
 # tests
+mkdir -p test/unit/@mocks && touch $_/index.ts && \
 mkdir -p test/unit/modules/${MODULE}/usecases && \
 
 # aplication
@@ -39,8 +40,9 @@ echo "done"
 #### file sequence
 
 [ ] create-user.usecase.test.ts
-[ ] create-user.usecase.ts
 [ ] create-user.schema.ts
+[ ] create-user.usecase.ts
 [ ] user-repository.ts
 [ ] user.entity.ts
 [ ] user-memory.repository.ts
+[ ] create-user.mock.ts
