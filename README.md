@@ -14,6 +14,7 @@
 MODULE=users && \
 
 # tests
+mkdir -p test/unit/@mocks && touch $_/index.ts && \
 mkdir -p test/unit/modules/${MODULE}/usecases && \
 
 # aplication
@@ -35,12 +36,15 @@ mkdir -p src/modules/${MODULE}/infra/repositories/memory && touch $_/index.ts &&
 echo "done"
 ```
 
+---
 
-#### file sequence
+#### create part 1: file sequence
 
-[ ] create-user.usecase.test.ts
-[ ] create-user.usecase.ts
-[ ] create-user.schema.ts
-[ ] user-repository.ts
-[ ] user.entity.ts
-[ ] user-memory.repository.ts
+[X] create-user.usecase.test.ts
+[X] create-user.schema.ts
+[X] create-user.usecase.ts
+[X] user-repository.ts
+[X] user.entity.ts
+[X] user-memory.repository.ts
+[X] create-user.mock.ts
+
