@@ -12,4 +12,10 @@ export class UserMemoryRepository implements UserRepository {
 
     return user
   }
+
+  async findByEmail(email: string) {
+    const user = this.users.find((user) => user.email === email)
+
+    return user ?? null
+  }
 }
